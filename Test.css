@@ -36,15 +36,20 @@ body,html{
   .ground{
     height: 300px;
     width: 200%;
-    background: lightblue;
+    background:#AFC2ED;
     margin-top: 19%;
     margin-left: -100%
   }
   
   .img-5{
     margin-top: -17%;
-    margin-left: 50%;
-    
+    margin-left: 48%;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
   }
   
   .header{
@@ -57,6 +62,7 @@ body,html{
     font-weight: bold;
     color:#AFC2ED;
     margin-top: 35px;
+    size: 20px;
   }
   
   .menu{
