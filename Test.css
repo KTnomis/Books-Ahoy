@@ -62,7 +62,7 @@ body,html{
     font-weight: bold;
     color:#AFC2ED;
     margin-top: 35px;
-    size: 20px;
+    font-size: 50px;
   }
   
   .menu{
@@ -157,3 +157,8 @@ body,html{
   .top-btns .sec-btn{
     margin-left: 15px;
   }
+  .logoicon{
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+  
